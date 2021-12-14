@@ -1,4 +1,4 @@
-module github.com/okta/okta-jwt-verifier-golang
+module github.com/thomassampson/okta-jwt-verifier-golang
 
 require (
 	github.com/lestrrat-go/jwx v1.2.13
