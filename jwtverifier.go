@@ -26,12 +26,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/okta/okta-jwt-verifier-golang/adaptors"
-	"github.com/okta/okta-jwt-verifier-golang/adaptors/lestrratGoJwx"
-	"github.com/okta/okta-jwt-verifier-golang/discovery"
-	"github.com/okta/okta-jwt-verifier-golang/discovery/oidc"
-	"github.com/okta/okta-jwt-verifier-golang/errors"
 	"github.com/patrickmn/go-cache"
+	"github.com/thomassampson/okta-jwt-verifier-golang/adaptors"
+	"github.com/thomassampson/okta-jwt-verifier-golang/adaptors/lestrratGoJwx"
+	"github.com/thomassampson/okta-jwt-verifier-golang/discovery"
+	"github.com/thomassampson/okta-jwt-verifier-golang/discovery/oidc"
+	"github.com/thomassampson/okta-jwt-verifier-golang/errors"
 )
 
 var metaDataCache *cache.Cache = cache.New(5*time.Minute, 10*time.Minute)
