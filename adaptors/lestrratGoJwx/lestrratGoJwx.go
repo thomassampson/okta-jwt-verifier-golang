@@ -24,8 +24,8 @@ import (
 
 	"github.com/lestrrat-go/jwx/jwk"
 	"github.com/lestrrat-go/jwx/jws"
-	"github.com/okta/okta-jwt-verifier-golang/adaptors"
 	"github.com/patrickmn/go-cache"
+	"github.com/thomassampson/okta-jwt-verifier-golang/adaptors"
 )
 
 var jwkSetCache *cache.Cache = cache.New(5*time.Minute, 10*time.Minute)
